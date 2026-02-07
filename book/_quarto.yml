@@ -1,0 +1,133 @@
+project:
+  type: website
+
+execute: 
+  freeze: auto
+language: 
+  search-text-placeholder: Search
+
+website: 
+  title: "IIIF Learning Labyrinth"
+  favicon: logo/favicon.ico
+  repo-url: https://github.com/IrisBox/IIIF-Learning-Labyrinth
+  repo-subdir: book
+  repo-actions: [source, issue] 
+  
+    
+  navbar:
+    background: primary
+    pinned: true
+    search: true
+    type: overlay
+    logo: logo/Liber-DS-logo-long-blue.png
+    
+    right:
+      - text: "Entrance"
+        href: topicguides.qmd
+      - text: "About"
+        href: project-overview.qmd 
+      - text: "Contribute"
+        menu:
+        - contributing.qmd
+        - guidelines.qmd
+        - licensing.qmd
+  sidebar:  
+      - title: "Chapters"
+        style: "docked"
+        background: light
+        contents:
+          - topicguides.qmd
+          - text: "---"
+          - 01-computer-vision.qmd
+          - text: "---"
+          - 02-crowdsourcing.qmd
+          - text: "---"
+          - 03-dataviz.qmd
+          - text: "---"
+          - 04-digitalmapping.qmd
+          - text: "---"
+          - 05-digitisation.qmd
+          - text: "---"
+          - 06-iiif.qmd
+          - text: "---"
+          - 07-digitisation.qmd
+          - text: "---"
+          
+  page-footer: 
+    border: false
+    background: "#EEB111"
+    center: | 
+      A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
+    right:
+      - icon: github
+        href: https://github.com/libereurope/ds-topic-guides
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    toc: true
+    toc-location: right
+    toc-title: Jump to...
+    toc-depth: 2
+
+    template-partials:
+      - title-block.html
+      - partials/_title-meta-author.html
+
+
+
+
+
+
+
+#About - Chapters  -   Additional Resources  -  Contribute   -   Search
+
+book:  
+  title: "Using Digitised Collections: IIIF Literacy, Methods and Tools"
+  reader-mode: true
+  search: true
+  page-footer: 
+    border: false
+    background: dark
+    left: | 
+      This teaching and learning resource was created as an output for a <a href="www.cdh.cam.ac.uk/learning/methods-fellowships-2025-26/">CDH Methods Fellowship project (2025-2026)</a> workshop <a href="https://www.cdh.cam.ac.uk/events/40307">Using Digitised Collections: IIIF Literacy, Methods and Tools</a>.  
+  
+  chapters:
+    - part: "**About**"
+      chapters:
+        - index.qmd
+        - project-overview.qmd
+        - contributing.qmd
+        - guidelines.qmd
+        - licensing.qmd
+        - contact.qmd
+    - topicguides.qmd
+    - 01-computer-vision.qmd
+    - 02-crowdsourcing.qmd
+    - 03-dataviz.qmd
+    - 04-digitalmapping.qmd
+    - 05-digitisation.qmd
+    - 06-iiif.qmd
+    - 07-digitisation.qmd
+    - part: "**General Resources**"
+      chapters:
+        - references.qmd
+        - reports.qmd
+        - training-platforms.qmd
+        - networks.qmd
+        
+    
+  sidebar:
+    logo: images/NewLogo.png
+    style: "docked"
+    collapse-level: 1
+
+  comments: 
+    utterances:
+      repo: IrisBox/IIIF-Learning-Labyrinth
+
+bibliography: references.bib
+
+
+
+

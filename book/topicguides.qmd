@@ -1,0 +1,40 @@
+---
+title: "**Topic Guides**"
+format:
+  html:
+    embed-resources: true
+    toc: false
+---
+Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer short introductions to applying digital scholarship and data science in modern library work. Each guide includes the authors' personal recommendations for tutorials, further reading, and communities of practice to support your learning journey.
+
+::: {.grid}
+::: {.g-col-4}
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+  <div class="card-header">**Where to begin?**</div>
+<div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides a helpful starting point for understanding digital scholarship and data science in the context of research libraries! </div>
+</div>
+
+<div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
+  <div class="card-header">**Group Study**</div>
+  <div class="card-body">You can use these materials to kickstart a reading group or host a hands-on workshop. For guidance on setting up your own program, check out our [Start your own training programme](dstp.qmd). It's packed with tips and tricks from the British Library's Digital Research Team on how to leverage these guides for group learning within your library or network.</div>
+</div>
+:::
+
+::: {.g-col-8}
+<div class="card text-white bg-success mb-3">
+  <div class="card-header">**Self-study & Quick Reference**</div>
+  <div class="card-body">These guides offer an initial dive into complex digital scholarship and data science topics, specifically how they apply in libraries. Feel free to explore them in any order, jumping to guides that spark your curiosity or meet your practical needs.
+
+Each _DS Topic Guide_ is structured to make it easy to quickly find the information you might need: 
+
+- Introduction to the topic
+- Relevance to the library sector (case studies/use cases)
+- Hands-on activities and other self-guided tutorial(s)
+- Recommended reading & viewing
+- Finding Communities of Practice</div>
+</div>
+
+::: {.callout-tip collapse=true}
+## Are we missing something? Keen to contribute a new guide?
+We'd love to hear about it! Vist our [Contribute to our Project](https://libereurope.github.io/ds-topic-guides/contributing.html) page for more details. Or just drop us a line at digitalresearch@bl.uk! 
+:::
