@@ -56,9 +56,9 @@ website:
           
   page-footer: 
     border: false
-    background: "#EEB111"
+    background: "$yellow"
     center: | 
-      A 2023-2027 <a href="https://libereurope.eu/working-groups">LIBER Working Group</a> collaboration between <a href="https://libereurope.eu/working-group/digital-scholarship-and-digital-cultural-heritage-collections-working-group/">Digital Scholarship and Digital Cultural Heritage </a> and <a href="https://libereurope.eu/working-group/liber-data-science-in-libraries-working-group/">Data Science in Libraries</a> 
+      This teaching and learning resource was created as an output for a <a href="www.cdh.cam.ac.uk/learning/methods-fellowships-2025-26/">CDH Methods Fellowship project (2025-2026)</a> workshop <a href="https://www.cdh.cam.ac.uk/events/40307">Using Digitised Collections: IIIF Literacy, Methods and Tools</a> 
     right:
       - icon: github
         href: https://github.com/libereurope/ds-topic-guides
