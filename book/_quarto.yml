@@ -56,7 +56,7 @@ website:
           
   page-footer: 
     border: false
-    background: "$yellow"
+    background: "$blue"
     center: | 
       This teaching and learning resource was created as an output for a <a href="www.cdh.cam.ac.uk/learning/methods-fellowships-2025-26/">CDH Methods Fellowship project (2025-2026)</a> workshop <a href="https://www.cdh.cam.ac.uk/events/40307">Using Digitised Collections: IIIF Literacy, Methods and Tools</a> 
     right:
