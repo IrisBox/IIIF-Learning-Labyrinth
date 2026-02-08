@@ -11,12 +11,12 @@ Authored by [LIBER](https://libereurope.eu/) professionals, these guides offer s
 ::: {.g-col-4}
 <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
   <div class="card-header">**Where to begin?**</div>
-<div class="card-body">Our [Getting Started in DS](gettingstarted.qmd) guide provides a helpful starting point for understanding digital scholarship and data science in the context of research libraries! </div>
+<div class="card-body">Our Getting Started in DS guide provides a helpful starting point for understanding digital scholarship and data science in the context of research libraries! </div>
 </div>
 
 <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
   <div class="card-header">**Group Study**</div>
-  <div class="card-body">You can use these materials to kickstart a reading group or host a hands-on workshop. For guidance on setting up your own program, check out our [Start your own training programme](dstp.qmd). It's packed with tips and tricks from the British Library's Digital Research Team on how to leverage these guides for group learning within your library or network.</div>
+  <div class="card-body">You can use these materials to kickstart a reading group or host a hands-on workshop. For guidance on setting up your own program, check out our Start your own training programme. It's packed with tips and tricks from the British Library's Digital Research Team on how to leverage these guides for group learning within your library or network.</div>
 </div>
 :::
 
